@@ -1,0 +1,6 @@
+// Lets Gradle auto-download the requested JDK (e.g. 25) if it isn't installed locally.
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+rootProject.name = 'onboarding-tracker'
